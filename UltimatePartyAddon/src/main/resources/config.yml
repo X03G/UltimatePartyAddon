@@ -1,0 +1,47 @@
+# UltimatePartyAddon Configuration
+# Built for UltimatePvP Integration
+
+gui:
+  title: "Select Kit: %mode%"
+  # The slots for the kits (0-17)
+  kits:
+    sword:
+      name: "&bSword"
+      material: DIAMOND_SWORD
+      slot: 0
+    axe:
+      name: "&eAxe"
+      material: DIAMOND_AXE
+      slot: 1
+    uhc:
+      name: "&6UHC"
+      material: GOLDEN_APPLE
+      slot: 2
+    smp:
+      name: "&aSMP"
+      material: SHIELD
+      slot: 3
+    vanilla:
+      name: "&fVanilla"
+      material: END_CRYSTAL
+      slot: 4
+    pot:
+      name: "&dPot"
+      material: POTION
+      slot: 5
+    nethpot:
+      name: "&5Nethpot"
+      material: NETHERITE_CHESTPLATE
+      slot: 6
+    mace:
+      name: "&cMACE"
+      material: MACE
+      slot: 7
+
+messages:
+  prefix: "&8[&6X03G-Party&8] "
+  no-permission: "&cYou do not have permission to use this command."
+  only-players: "&cOnly players can execute party commands."
+  party-invite: "&aYou have invited &f%player% &ato your party!"
+  party-disband: "&eThe party has been disbanded."
+  duel-start: "&7Starting a &e%mode% &7duel with kit: &b%kit%&7..."

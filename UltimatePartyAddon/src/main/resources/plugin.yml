@@ -1,0 +1,9 @@
+name: UltimatePartyAddon
+version: 1.0
+main: com.X03G.partyaddon.PartyAddonPlugin
+api-version: '1.21'
+depend: [UltimatePvP]
+commands:
+  party:
+    description: Party management for UltimatePvP
+    aliases: [p]
